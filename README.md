@@ -126,4 +126,3 @@ El servidor arranca en `http://localhost:3000` con recarga automática gracias a
 ## 👤 Autor
 
 **José Fernando Martínez** — Grado Superior DAW · CESUR · 2025/2026
-```
