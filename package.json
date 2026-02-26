@@ -1,0 +1,24 @@
+{
+  "name": "techfit",
+  "version": "1.0.0",
+  "description": "Backend para TechFit: Sistema de gestión de reservas para gimnasios inteligentes. Desarrollado con Node.js, Express y PostgreSQL, incluye API REST, validaciones de negocio y automatización de tareas mediante Cron Jobs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmartinez10/TechFit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfmartinez10/TechFit/issues"
+  },
+  "homepage": "https://github.com/jfmartinez10/TechFit#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.19.0"
+  }
+}
