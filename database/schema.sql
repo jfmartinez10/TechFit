@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
   nombre VARCHAR(100) NOT NULL,
   email VARCHAR(150) NOT NULL UNIQUE,
   fecha_fin_suscripcion DATE NOT NULL,
+  /*Fecha y hora de creación del registro para control interno y métricas.*/
   created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
